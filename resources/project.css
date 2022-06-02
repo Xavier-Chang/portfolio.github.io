@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    background-color: #F7F7F8;
+    width: 1440px;
+}
+
+h1, main h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+main h2 {
+    letter-spacing: 2px;
+    font-size: 3em;
+    margin-left: 1em;
+}
+
+h1 {
+    font-size: 5em;
+    position: relative;
+    left: 1em;
+    letter-spacing: 6px;
+    width: fit-content;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+button {
+    display: flex;
+    position: fixed;
+    right: 1em;
+    top: 0;
+    background-color: white;
+    width: 8em;
+    height: 4em;
+    align-items: center;
+    justify-content: center;
+    border: 0.3em solid black;
+    border-radius: 10px;
+    transition: all 0.3s ease-in 0.1s;
+}
+
+button:hover {
+    background-color: black;
+    right: 1.3em; 
+}
+
+button h2:hover{
+    color: white;
+}
+
+header h2 {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    font-family: 'Tiro Gurmukhi', serif;
+}
+
+p {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 2em;
+    margin-left: 1.5em;
+    line-height: 1.5em;
+}
+

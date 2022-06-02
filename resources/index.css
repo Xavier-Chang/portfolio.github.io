@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    position: fixed;
+    z-index: 1;
+    left: 25%;
+    top: 10%;
+    line-height: 4em;
+    padding: 10px;
+    background-color: rgba(247, 247, 248, 0.6);
+    width: 35em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 7em;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 12px;
+    color: #820933;
+}
+
+#about {
+    color: #0D0630;
+}
+
+
+
+img {
+    z-index: 0;
+    display:flex;
+    position:fixed;
+    width: 100%;
+    opacity: 0.8;
+}
